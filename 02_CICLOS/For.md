@@ -1,4 +1,5 @@
 # Ciclo For
+Un ciclo for es una estructura iterativa para ejecutar un mismo segmento de código una cantidad de veces deseada; conociendo previamente un valor de inicio, un tamaño de incremento y un valor final para el ciclo (expresión boolena o condición).
 ``` java
 class Main {
   public static void main(String[] args) {
