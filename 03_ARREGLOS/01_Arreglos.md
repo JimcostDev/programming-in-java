@@ -39,7 +39,4 @@ como sí puede hacerse en otros lenguajes. Veremos ahora cómo declarar arrays e
     // int x = numeros[0];
     // System.out.println(x);
     // System.out.println(numeros[1]);
-
-    // Excepciones
-    // Índice fuera del arreglo
 ```
