@@ -23,6 +23,23 @@ como sí puede hacerse en otros lenguajes. Veremos ahora cómo declarar arrays e
 
 ## Declaración de arrays:
 ```java
-int numeros[] = new int[5];
-int personas[] = new int[7];
+    int numeros[] = new int[5];
+    int personas[] = new int[7];
+```
+## Asignación de valores a elementos de un arreglo:
+```java
+    int numeros[] = new int[5];
+    numeros[0] = 19;
+    numeros[1] = 33;
+    numeros[2] = 79;
+    numeros[3] = 9;
+    numeros[4] = 42;
+
+    // Obtener los valores
+    // int x = a[0];
+    // System.out.println(x);
+    // System.out.println(a[1]);
+
+    // Excepciones
+    // Índice fuera del arreglo
 ```
