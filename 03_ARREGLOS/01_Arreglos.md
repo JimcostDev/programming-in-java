@@ -42,11 +42,11 @@ como sí puede hacerse en otros lenguajes. Veremos ahora cómo declarar arrays e
 ```
 ## Ejemplo completo mas excepcion:
 ```java
-class Main {
+    class Main {
   public static void main(String[] args) {
 
     //declaracion del arreglo
-    int numeros[] = new int[5];
+    int numeros[] = new int[9];
 
     //poblar el arreglo
     numeros[0] = 19;
@@ -67,6 +67,12 @@ class Main {
 
     //excepcion: Índice fuera del arreglo
     System.out.println(numeros[5]);
+
+    //en java los valores por defecto (solo tipos de datos primitivos) son: 0 (para int) false (para boolean), etc
+    boolean b[] = new boolean[3];
+    for(boolean k : b){
+      System.out.println(k);
+    }
     
   }
 }
