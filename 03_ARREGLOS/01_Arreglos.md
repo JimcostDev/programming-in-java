@@ -40,3 +40,34 @@ como sí puede hacerse en otros lenguajes. Veremos ahora cómo declarar arrays e
     // System.out.println(x);
     // System.out.println(numeros[1]);
 ```
+## Ejemplo completo mas excepcion:
+```java
+class Main {
+  public static void main(String[] args) {
+
+    //declaracion del arreglo
+    int numeros[] = new int[5];
+
+    //poblar el arreglo
+    numeros[0] = 19;
+    numeros[1] = 33;
+    numeros[2] = 79;
+    numeros[3] = 9;
+    numeros[4] = 42;
+
+    //mostrar por consla
+    for (int v : numeros){
+      System.out.println(v);
+    }
+
+    //otra forma de mostrar
+    // for (int i = 0; i<numeros.length; i++){
+    //   System.out.println(numeros[i]);
+    // }
+
+    //excepcion: Índice fuera del arreglo
+    System.out.println(numeros[5]);
+    
+  }
+}
+```
