@@ -63,7 +63,7 @@ class Main {
    	  for( int v : a){
    	      System.out.print(v+ " ");
    	  }
-      // Ordenar por el método burbuja
+        // Ordenar por el método burbuja
         // 1. Recorrer el arreglo tantas 
         // veces como elementos contenga menos 1.
         // Si el arreglo tiene 10 elementos, voy a recorrerlo
@@ -78,6 +78,7 @@ class Main {
         // 3.        1, 5, 6, 9, 12, 14
         // 4.        1, 5, 6, 9, 12, 14
         // 5.        1, 5, 6, 9, 12, 14
+	
         System.out.println();
         System.out.println("Ordenado:");
 
