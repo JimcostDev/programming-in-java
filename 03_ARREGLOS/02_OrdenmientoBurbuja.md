@@ -58,7 +58,7 @@ class Main {
    	  // Math.random genera un número float entre 0.0 y 0.9999999999
    	  }
 
-      System.out.println("Desordenado:");
+      	  System.out.println("Desordenado:");
    	  // Mostrar el arreglo por consola (desordenado)
    	  for( int v : a){
    	      System.out.print(v+ " ");
