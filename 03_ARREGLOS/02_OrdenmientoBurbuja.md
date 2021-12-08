@@ -85,10 +85,10 @@ class Main {
         for (int recorrido = 0; recorrido < a.length - 1; recorrido++) { //recorridos 
             for (int elemento = 0; elemento < a.length - 1; elemento++) { //elementos del arreglo
                 if (a[elemento] > a[elemento + 1]) {
-                    // cambiar de posicion los numeros (ordena)
-                    int t = a[elemento];
-                    a[elemento] = a[elemento + 1];
-                    a[elemento + 1] = t;
+                    // cambiar de posicion los elementos (ordenarlos)
+                    int t = a[elemento]; //variable temporal, almacenamos el elemento actual
+                    a[elemento] = a[elemento + 1]; // el elemento actual lo cambiamos por el siguinte 
+                    a[elemento + 1] = t; // al elemento siguiente le asignamos el valor de la variable temporal, es decir hemos cambiado de posicion
                 }
             }
         }
