@@ -43,3 +43,24 @@ original: 5, 6, 9, 1, 14, 12
 5.        1, 5, 6, 9, 12, 14 
 ```
 La lógica del algoritmo dice realizar 5 pasadas para este caso, a pesar de que en la tercera ya los haya ordenado.
+
+## Codigo Burbuja (solución):
+```java
+	// Código método Burbuja
+        for (int recorrido = 0; recorrido < a.length - 1; recorrido++) {
+            for (int elemento = 0; elemento < a.length - 1; elemento++) {
+                if (a[elemento] > a[elemento + 1]) {
+                    int t = a[elemento];
+                    a[elemento] = a[elemento + 1];
+                    a[elemento + 1] = t;
+                }
+            }
+        }
+
+        // Mostramos el arreglo ya ordenado
+        for (int v : a) {
+            System.out.print(v + " ");
+        }
+
+        System.out.println();
+```
