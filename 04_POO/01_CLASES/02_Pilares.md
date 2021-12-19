@@ -8,7 +8,7 @@ Si bien, con el tiempo, la programación orientada a objetos ha evolucionado par
 * Polimorfismo
 
 ## Abstracción
-La abstracción es un proceso mental con el que se puede aislar un elemento de la naturaleza o de algo ficticio, de algo que exista o que no exista.
+La abstracción es un proceso mental con el que se puede aislar un elemento de la naturaleza o de algo ficticio, de algo que exista o que no exista  (propiedades o funciones concretas y fundamentales) , pensando qué es, e ignorando otras propiedades del objeto en cuestión.
 
 Ejemplo: pensar en un árbol es abstraer la esencia de un árbol: cómo será el árbol, de qué color, que forma tendrá, si el árbol tiene frutos, en que zona crecerá el árbol, cuántos años podrá tener. Se trata de abstraer la realidad, se trata de buscar las principales características que tiene un árbol. También es posible abstraer ficción, algo que no exista, pero es algo de lo cual se puede extraer características de comportamientos del elemento que se abstrae.
 
