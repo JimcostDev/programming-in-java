@@ -14,7 +14,7 @@ Estas clases poseen dos características principales, pero no necesariamente deb
 * **Métodos (comportamientos):** son considerados el comportamiento de esos objetos. Entonces, se habla de verbos o acciones que se realizan. Ej: para una persona, sus métodos pueden ser comer, sonreír, llorar, caminar, respirar, enfermar, sanar, etc.
 
 ## Objeto:
-Los objetos son una instancia de una clase y una instancia es cando se crea un nuevo elemento a partir de una clase. Si tiene la clase 'Persona' y crea una nueva persona lo que hace es instanciar un objeto. Para instanciar, se utiliza una palabra reservada llamada 'new. Con 'new' instanciamos un nuevo objeto a partir de una clase.
+Los objetos son una instancia de una clase y **una instancia es cando se crea un nuevo elemento a partir de una clase.** Si tiene la clase 'Persona' y crea una nueva persona lo que hace es instanciar un objeto. Para instanciar, se utiliza una palabra reservada llamada 'new. Con 'new' instanciamos un nuevo objeto a partir de una clase.
 
 ## Getters y Setters (encapsulamiento):
 Métodos clásicos en la programación orientada a objetos. Estos Getters y Setters permite asignarles valores a esos atributos y obtener los valores de esos atributos.
