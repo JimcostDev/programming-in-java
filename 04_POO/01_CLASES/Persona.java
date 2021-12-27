@@ -31,15 +31,15 @@ class Persona {
       if (p < 0 || p > 300) {
       System.out.println("El peso no es valido");
     } else {
-      this.edad = p;
+      this.peso = p;
     }
   }
 
   void setEstatura(float es){
-    if (p < 0 || es > 3.0f) {
+    if (es < 0 || es > 3.0f) {
     System.out.println("El tamaño no es valido");
   } else {
-    this.edad = es;
+    this.estatura = es;
   }
 }
 

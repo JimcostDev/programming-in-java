@@ -6,7 +6,7 @@ class Principal{
     persona.setNombre("Ronaldo Jimenez Acosta");
     persona.setEdad(21);
     persona.setPeso(60f);
-    perosona.setEstatura(1.86f)
+    persona.setEstatura(1.86f);
 
     // mostrar el objeto por consola
     System.out.println("Nombre: " + persona.getNombre());
