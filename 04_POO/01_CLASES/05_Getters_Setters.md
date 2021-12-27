@@ -86,3 +86,4 @@ String getNombre(){
 }
 ```
 Para obtener ése valor, debemos escribir la firma que debe decirnos qué va a devolver y en éste caso devuelve un String porque 'nombre' es de tipo String. Luego va el nombre del método get seguido del nombre arbitrario, en éste caso Nombre debido al atributo al que se hace referencia. Y luego, entre llaves, se escribe un 'return' para devolver el el atributo de la clase u objeto this.
+https://replit.com/@RonaldoJimenez2/Persona#Main.java
