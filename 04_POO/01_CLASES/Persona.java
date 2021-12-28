@@ -5,6 +5,28 @@ class Persona {
   private float peso;
   private float estatura;
 
+  // Constructores
+  public Persona() {
+    // Sirve para inicializar los valores por defecto de un objeto instanciado
+    this.nombre = "";
+    this.edad = 0;
+    this.peso = 0f;
+    this.estatura = 0f;
+  }
+
+  // Segundo constructor
+  // sobrecarga: escribir un método con el mismo nombre pero con diferente firma
+  public Persona(String n) {
+    this.nombre = n;
+    //this.saludar();
+  }
+
+  // Tercer constructor
+  public Persona(String n, int e) {
+    this.nombre = n;
+    this.edad = e;
+  }
+
   // Metodos (comportamiento)
   // Setters
   void setNombre(String n) {
@@ -27,21 +49,21 @@ class Persona {
     }
   }
 
-  void setPeso(float p){
-      if (p < 0 || p > 300) {
+  void setPeso(float p) {
+    if (p < 0 || p > 300) {
       System.out.println("El peso no es valido");
     } else {
       this.peso = p;
     }
   }
 
-  void setEstatura(float es){
+  void setEstatura(float es) {
     if (es < 0 || es > 3.0f) {
-    System.out.println("El tamaño no es valido");
-  } else {
-    this.estatura = es;
+      System.out.println("El tamaño no es valido");
+    } else {
+      this.estatura = es;
+    }
   }
-}
 
   // Getters
   String getNombre() {
@@ -52,11 +74,15 @@ class Persona {
     return this.edad;
   }
 
-  float getPeso (){
-      return this.peso;
+  float getPeso() {
+    return this.peso;
   }
 
-  float getEstatura (){
+  float getEstatura() {
     return this.estatura;
-}
+  }
+
+  void saludar() {
+    System.out.println("Hola, mi nombre es: " + this.nombre);
+  }
 }
