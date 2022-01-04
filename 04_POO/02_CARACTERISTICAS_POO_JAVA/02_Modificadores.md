@@ -8,7 +8,7 @@ Los modificadores permiten controlar el acceso a los atributos o a los métodos 
 
 * **protected**: Puede ser accedido desde su clase, desde las clases que están en el mismo paquete y desde las clases que hereden así estén en otras clases, es decir, desde otro paquete.
 
-Modificador | Clase | Paquete | Subclase (mismo paquete) | Subclase (diferente paquete) | Mundo
+Modificador | Clase | Paquete | Herencia (mismo paquete) | Herencia (diferente paquete) | Mundo
 --|--|--|--|--|--
 public | Si | Si | Si | Si | Si
 private | Si | No | No | No | No
