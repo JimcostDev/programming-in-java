@@ -27,6 +27,31 @@ public class PruebaStatic {
       // Matematicas m = new Matematicas(); // no se instancia porque el metodo sumar es 'static'
       int r = Matematicas.sumar(3, 4); // se llama directamente la clase 'Matematicas'
       System.out.println(r);
-		}
+    }
+}
+```
+
+## Ejemplo:
+En este ejemplo el método no es estático, sino que sea un atributo el miembro que se convierta en estático, como el número PI.
+
+Es necesario acceder al atributo que es de clase, de la misma manera que se realizo con el método sin instanciar un objeto de la clase Matemáticas.
+
+```java
+public class Matematicas {
+ public static float PI = 3.1416f;
+  public int sumar(int a, int b) {
+    return a + b; 
+  }
+}
+```
+
+```java
+public class PruebaStatic {
+  public static void main(String[] args) {
+      // Matematicas m = new Matematicas(); 
+      int r = Matematicas.sumar(3, 4); 
+      System.out.println(r);
+      System.out.println("El valor de PI es = " + Matematicas.PI);
+    }
 }
 ```
