@@ -32,14 +32,14 @@ public class PruebaStatic {
 ```
 
 ## Ejemplo:
-En este ejemplo el método no es estático, sino que sea un atributo el miembro que se convierta en estático, como el número PI.
+En este ejemplo es un atributo el que se convierta en estático, como el número PI.
 
 Es necesario acceder al atributo que es de clase, de la misma manera que se realizo con el método sin instanciar un objeto de la clase Matemáticas.
 
 ```java
 public class Matematicas {
  public static float PI = 3.1416f;
-  public int sumar(int a, int b) {
+  public static int sumar(int a, int b) {
     return a + b; 
   }
 }
@@ -55,3 +55,6 @@ public class PruebaStatic {
     }
 }
 ```
+El método 'main' utiliza 'static' porque la máquina virtual, cuando va a ejecutar, no va a instanciar un objeto, en este caso PruebaStatic sino que llama de manera directa el método 'main' desde el nombre de la clase ('PruebaStatic.main') y así ejecuta el método principal de Java sin necesidad de instanciar objetos.
+
+Por eso la firma del método 'main' es 'public', tiene que ser accedido desde cualquier parte de la máquina virtual, 'static' porque no es necesario instanciar un objeto, 'void' porque no debe devolver nada, la palabra reservada 'main' porque Java sabe que es el método principal y sus argumentos que es un array de Strings los cuales pueden ser enviados por medio de consola.
