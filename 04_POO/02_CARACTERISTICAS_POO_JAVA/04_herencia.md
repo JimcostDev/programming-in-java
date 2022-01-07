@@ -89,7 +89,7 @@ public class Main {
   // Se le dice a la Persona que 'hable'
   persona.hablar(); 
   
-  Persona profesor = new Profesor();
+  Profesor profesor = new Profesor();
   //¿qué utilizar de la clase Persona? Todos los atributos y los métodos son públicos
   profesor.nombre = "Juan";
   profesor.hablar();
