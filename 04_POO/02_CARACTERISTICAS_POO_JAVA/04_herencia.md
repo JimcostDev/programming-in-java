@@ -28,6 +28,7 @@ En éste curso, la herencia estará basada en la literatura clásica donde dice 
 package team.ed.herencia;
 
 public class Persona {
+  public String nombre;
   public int edad;
   public float alto;
   public float peso;
