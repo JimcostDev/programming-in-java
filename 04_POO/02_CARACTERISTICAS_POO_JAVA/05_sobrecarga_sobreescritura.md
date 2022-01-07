@@ -52,7 +52,7 @@ public class Profesor extends Persona {
   }
 
   // sobreescritura
-  @override
+  @Override
   public void comer() {
     System.out.println("Estoy comiendo, soy vegetariana");
   }
