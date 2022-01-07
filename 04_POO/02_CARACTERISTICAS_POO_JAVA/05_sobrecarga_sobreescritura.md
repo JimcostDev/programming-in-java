@@ -32,7 +32,7 @@ public class Persona {
 ```
 
 ```java
-
+//Profesor.java
 package com.jimcostdev.herencia;
 
 // Un profesor hereda de Persona
@@ -62,8 +62,7 @@ public class Profesor extends Persona {
 ## ejecucion:
 
 ```java
-
-
+//Main.java
 import com.jimcostdev.herencia.Persona;
 import com.jimcostdev.herencia.Profesor;
 
