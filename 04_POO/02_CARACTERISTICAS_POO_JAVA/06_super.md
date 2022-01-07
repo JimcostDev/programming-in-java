@@ -92,7 +92,7 @@ class Main {
     profe.ensenar();
     profe.ensenar("Java");
     profe.ensenar("Java","lunes");
-    persona.comer(); // sobreescritura de método
+    profe.comer(); // sobreescritura de método
   }
 }
 ```
