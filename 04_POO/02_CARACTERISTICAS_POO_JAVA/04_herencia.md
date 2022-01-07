@@ -30,7 +30,7 @@ package team.ed.herencia;
 public class Persona {
   public int edad;
   public float alto;
-  public float peso 
+  public float peso;
   public void hablar(){
     System.out.println("Hola soy " + this.nombre);
   }
