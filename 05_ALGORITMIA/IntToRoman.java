@@ -26,7 +26,7 @@ public class IntToRoman {
       units = number % 10; number /= 10; // units  = 9, number = 328
       tens = number % 10; number /= 10; // tens  = 8, number = 32
       hundreds = number % 10; number /= 10; // hundreds  = 2, number = 3
-      thousands = number % 10; number /= 10; // units  = 3, number = 0
+      thousands = number % 10; number /= 10; // thousands  = 3, number = 0
   
   
       switch (thousands){
