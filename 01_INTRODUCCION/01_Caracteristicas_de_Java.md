@@ -6,13 +6,15 @@ Java es un lenguaje de programación multipropósito, lo que significa que se pu
 * Programas del servidor
 * Aplicaciones para microcontroladores
   
-Java fue creado por Sun Microsystems en 1995 y actualmente es propiedad de **Oracle.**
+Java fue creado por James Gosling de Sun Microsystems en 1995 y actualmente es propiedad de **Oracle.**
+
+WORA
 
 ## Versiones:
 
-* **Versiones de características (LTS):** Se lanzan cada dos años y ofrecen nuevas funciones y cambios importantes. Son compatibles con versiones anteriores, lo que significa que el código escrito para una versión anterior de Java debería funcionar sin modificaciones en una versión LTS posterior.
+* **Versiones de características (LTS):** Se lanzan cada 3 años y ofrecen nuevas funciones y cambios importantes. Son compatibles con versiones anteriores, lo que significa que el código escrito para una versión anterior de Java debería funcionar sin modificaciones en una versión LTS posterior.
   
-* **Versiones de mantenimiento:** Se lanzan cada seis meses y ofrecen mejoras de rendimiento, correcciones de errores y parches de seguridad. No son compatibles con versiones anteriores, por lo que el código escrito para una versión de mantenimiento específica podría no funcionar en una versión posterior.
+* **Versiones de mantenimiento:** Se lanzan cada 6 meses y ofrecen mejoras de rendimiento, correcciones de errores y parches de seguridad. No son compatibles con versiones anteriores, por lo que el código escrito para una versión de mantenimiento específica podría no funcionar en una versión posterior.
 
 ## Grupos:
 Los grupos de Java se utilizan para organizar y distribuir diferentes versiones de Java. Hay tres grupos principales:
