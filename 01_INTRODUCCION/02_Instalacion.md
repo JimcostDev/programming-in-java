@@ -13,6 +13,8 @@ Desde https://www.oracle.com/java/technologies/downloads/ podemos descargar el j
 ## Instalar Open JDK
 Desde https://openjdk.java.net/ podemos encontrar el JDK sin dichas librerias propietarias (free)
 
+Otra forma de instalar es con: https://adoptopenjdk.net/releases.html
+
 ## Pasos para instalar en Windows
 https://parzibyte.me/blog/2020/04/03/instalar-openjdk-windows/
 
