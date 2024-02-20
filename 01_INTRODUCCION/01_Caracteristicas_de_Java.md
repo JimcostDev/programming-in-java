@@ -1,8 +1,24 @@
 # ¿Que es Java?
-Java es un lenguaje de programación multiproposito (podemos crear videojuegos, programas de escritorio, programas del servidor, microcontroladores). 
-Fue creado por Sun Microsystems, actualmente pertenece a Oracle.
+Java es un lenguaje de programación multipropósito, lo que significa que se puede utilizar para crear una amplia variedad de aplicaciones, incluyendo:
 
-## Versiones - Grupos
-* **Java SE** - Aprender a programar, programas de servidor y no empresariales
-* **Java ME** - Para microcontroladores
-* **Java EE** - Enfocado en procesos empresariales (Redes, Web)
+* Videojuegos
+* Programas de escritorio
+* Programas del servidor
+* Aplicaciones para microcontroladores
+  
+Java fue creado por Sun Microsystems en 1995 y actualmente es propiedad de **Oracle.**
+
+## Versiones:
+
+* **Versiones de características (LTS):** Se lanzan cada dos años y ofrecen nuevas funciones y cambios importantes. Son compatibles con versiones anteriores, lo que significa que el código escrito para una versión anterior de Java debería funcionar sin modificaciones en una versión LTS posterior.
+  
+* **Versiones de mantenimiento:** Se lanzan cada seis meses y ofrecen mejoras de rendimiento, correcciones de errores y parches de seguridad. No son compatibles con versiones anteriores, por lo que el código escrito para una versión de mantenimiento específica podría no funcionar en una versión posterior.
+
+## Grupos:
+Los grupos de Java se utilizan para organizar y distribuir diferentes versiones de Java. Hay tres grupos principales:
+  
+* **Java SE(Standard Edition):** Es la plataforma Java fundamental que se utiliza para desarrollar aplicaciones de escritorio, aplicaciones web y aplicaciones móviles.
+  
+* **Java EE (Enterprise Edition)** Es una plataforma Java extendida que se utiliza para desarrollar aplicaciones empresariales a gran escala.
+  
+* **Java ME (Micro Edition)** Es una plataforma Java reducida que se utiliza para desarrollar aplicaciones para dispositivos móviles con recursos limitados.
