@@ -15,6 +15,8 @@ WORA
 * **Versiones de características (LTS):** Se lanzan cada 3 años y ofrecen nuevas funciones y cambios importantes. Son compatibles con versiones anteriores, lo que significa que el código escrito para una versión anterior de Java debería funcionar sin modificaciones en una versión LTS posterior.
   
 * **Versiones de mantenimiento:** Se lanzan cada 6 meses y ofrecen mejoras de rendimiento, correcciones de errores y parches de seguridad. No son compatibles con versiones anteriores, por lo que el código escrito para una versión de mantenimiento específica podría no funcionar en una versión posterior.
+  
+[listado de versiones](https://www.instagram.com/reel/C3ggUqas69A/?igsh=ZW1wZGkxZGVzOXJ4)
 
 ## Grupos:
 Los grupos de Java se utilizan para organizar y distribuir diferentes versiones de Java. Hay tres grupos principales:
