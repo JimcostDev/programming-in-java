@@ -1,4 +1,4 @@
-# COMPILACIÓN EN JAVA
+##  Compilación en Java
 En Java, cada clase se escribe en un archivo con extensión `.java`.java que tiene el mismo nombre que la clase. Por ejemplo, una clase llamada `Hello` se guarda en un archivo llamado `Hello.java`.
 
 Para compilar el código Java y convertirlo en bytecode, utilizamos un compilador Java como javac, que viene incluido en los kits de desarrollo de Java (JDK o SDK).
@@ -17,3 +17,15 @@ Para ejecutar un programa Java, usamos el comando java seguido del nombre de la 
 ```
 
 ![compilacion](https://i.stack.imgur.com/oQJKx.png "Compiler Java")
+
+
+## Compilación y ejecución al mismo tiempo
+En Java, la capacidad de compilar y ejecutar un archivo `.java` directamente desde la línea de comandos utilizando el comando `java` y `javac` ha estado disponible desde las primeras versiones del lenguaje. Sin embargo, a partir de Java 11, se introdujo una mejora en la herramienta `javac` que permite compilar y ejecutar archivos Java de forma simplificada con el comando `java`. Esto se conoce como "Single-File Source-Code Execution". 
+
+Entonces, aunque ha sido posible compilar y ejecutar archivos Java directamente desde las primeras versiones, la facilidad de hacerlo con un solo comando se introdujo a partir de **Java 11**.
+
+Se compila y ejecuta con:
+```Java 
+	java Hello.java
+```
+	
