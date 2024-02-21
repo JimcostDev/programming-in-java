@@ -51,8 +51,7 @@
            scanner.close();
        }
    }
-```
-
+   ```
 2. **Conversor de temperatura:**
    - Crea un programa que convierta la temperatura de Celsius a Fahrenheit o de Fahrenheit a Celsius.
    - Solicita al usuario la temperatura y la unidad de medida inicial, y luego realiza la conversión.
