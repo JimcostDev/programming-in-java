@@ -5,7 +5,7 @@ como sí puede hacerse en otros lenguajes. Veremos ahora cómo declarar arrays e
 
 ## Caracteristicas:
 1. Tamaño fijo.
-2. Sólo puede contener elementos de un mismo tipo.Puede almacenar tipos de datos primitivos o referencias a objetos.
+2. Sólo puede contener elementos de un mismo tipo. Puede almacenar tipos de datos primitivos o referencias a objetos.
 
 ## Conceptos base (atributos):
 1. Posición o índice:
