@@ -1,4 +1,4 @@
-# Variables y constantes:
+## Variables y constantes:
 
 ```Java 
 	class Hola {
@@ -21,4 +21,15 @@
                 System.out.println(resultado);
         }
 }
+```
+## Inferencia de tipos local 
+Las declaraciones de variables en Java han experimentado varias mejoras en las últimas versiones del lenguaje, especialmente con la introducción de la *inferencia de tipos local*, que simplifica la forma en que se declaran las variables. Algunas de estas mejoras son:
+
+A partir de **Java 10**, se introdujo la palabra clave `var`, que permite al compilador inferir automáticamente el tipo de una variable en función del tipo de valor que se le asigna. Esto reduce la necesidad de repetir el tipo de variable y hace que el código sea más conciso.
+
+Ejemplo:
+```java
+   var number = 10; // En lugar de: int number = 10;
+   var text = "Hello"; // En lugar de: String text = "Hello";
+   final var message = "Howdy"; 
 ```
