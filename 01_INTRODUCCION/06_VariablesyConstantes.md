@@ -18,8 +18,8 @@ resultado = primerNumero + segundoNumero;
 constante = primerNumero + segundoNumero; // esto daria error (al compilar) porque no se puede cambiar el valor a una constante 
                 
 //imprimir por consola
-                System.out.println(resultado);
-        }
+System.out.println(resultado);
+ }
 }
 ```
 ## Inferencia de tipos local 
