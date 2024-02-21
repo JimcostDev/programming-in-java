@@ -1,23 +1,23 @@
 ## Variables y constantes:
 
-```Java 
-	class Hola {
+```java
+class Hola {
     
-        public static void main (String ...args){
+public static void main (String ...args){
               
-                //delarar variables
-                int primerNumero = 10;
-                int segundoNumero = 12;
-                int resultado;
+//delarar variables
+int primerNumero = 10;
+int segundoNumero = 12;
+int resultado;
                 
-                //declarar constantes
-                final int constante = 3.14
+//declarar constantes
+final int constante = 3.14
                 
-                //operacion
-                resultado = primerNumero + segundoNumero;
-                constante = primerNumero + segundoNumero; // esto daria error (al compilar) porque no se puede cambiar el valor a una constante 
+//operacion
+resultado = primerNumero + segundoNumero;
+constante = primerNumero + segundoNumero; // esto daria error (al compilar) porque no se puede cambiar el valor a una constante 
                 
-                //imprimir por consola
+//imprimir por consola
                 System.out.println(resultado);
         }
 }
@@ -32,4 +32,13 @@ Ejemplo:
    var number = 10; // En lugar de: int number = 10;
    var text = "Hello"; // En lugar de: String text = "Hello";
    final var message = "Howdy"; 
+```
+## Consultar el tipo de dato de una variable 
+```java
+public class Main {
+    public static void main(String[] args) {
+        var miVariable = "Hola Mundo";
+        System.out.println(miVariable.getClass().getSimpleName());
+    }
+}
 ```
