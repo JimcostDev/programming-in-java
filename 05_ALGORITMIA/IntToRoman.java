@@ -10,7 +10,7 @@ public class IntToRoman {
     I = 1
 
     conditions:
-    int <= 0 and int >= 3999
+    int >= 0 and int <= 3999
 */
   public static void main(String[] args) {
     
