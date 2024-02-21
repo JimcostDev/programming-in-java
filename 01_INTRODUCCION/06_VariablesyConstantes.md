@@ -1,7 +1,7 @@
 ## Variables y constantes:
 
 ```java
-class Hola {
+public class Hola {
     
 public static void main (String ...args){
               
