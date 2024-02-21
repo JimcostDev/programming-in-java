@@ -1,11 +1,19 @@
 # COMPILACIÓN EN JAVA
-Se escribe un programa en código Java utilizando el sufijo “.java”, el cual se compila mediante cualquiera de los compiladores de Java en alguna de las distintas plataformas. En general, debe haber un archivo “.java” por cada clase que exista en el programa, donde el archivo tendrá el mismo nombre que la clase contenida. El compilador genera el código final, conocido como bytecode, a ser interpretado por la máquina virtual de Java. El programa generado tiene como extensión el sufijo “.class”. Se origina un archivo “.class” por cada clase que se tenga en la aplicación.
+En Java, cada clase se escribe en un archivo con extensión `.java`.java que tiene el mismo nombre que la clase. Por ejemplo, una clase llamada `Hello` se guarda en un archivo llamado `Hello.java`.
 
-Por ejemplo, si se tiene una clase llamada “ej”, el nombre del archivo debe ser “ej.java”. El archivo se compilaría mediante algún ambiente de desarrollo o utilizando el comando javac que viene incluido en los kit de desarrollo de Java como Java Development Kit (JDK) o Standard Development Kit (SDK). Por ejemplo, para compilar el archivo anterior se ejecutaría
+Para compilar el código Java y convertirlo en bytecode, utilizamos un compilador Java como javac, que viene incluido en los kits de desarrollo de Java (JDK o SDK).
+
+La compilación se realiza ejecutando el comando javac seguido del nombre del archivo de la clase que queremos compilar. Por ejemplo:
 
 ```Java 
-	javac ej.java
+	javac Hello.java
 ```
-Esta compilación resultaría en el archivo “ej.class”.
+Esto generará un archivo con extensión `.class` para cada clase en nuestra aplicación. El bytecode generado será interpretado por la máquina virtual de Java (JVM) para ejecutar el programa.
+
+Para ejecutar un programa Java, usamos el comando java seguido del nombre de la clase principal (es decir, la clase que contiene el método main).
+
+```Java 
+	java Hello
+```
 
 ![compilacion](https://i.stack.imgur.com/oQJKx.png "Compiler Java")
