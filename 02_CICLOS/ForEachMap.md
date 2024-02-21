@@ -3,19 +3,23 @@ En Java, Map es una interfaz que representa una colección de pares clave-valor,
 ```java
 import java.util.Map;
 import java.util.HashMap;
-class Main {
+class EXampleMap {
   public static void main(String[] args) {
-    Map<Integer, String> nombres = new HashMap<>();
-        nombres.put(28, "Ronaldo");
-        nombres.put(25, "Messi");
-        nombres.put(23, "Falcao");
-        nombres.put(25, "Lewandoski");
-        nombres.put(19, "James");
-        nombres.put(41, "Kane");
+    Map<String, Integer> nombres = new HashMap<>();
+        nombres.put("Ronaldo", 29);
+        nombres.put( "Messi", 27);
+        nombres.put( "Falcao", 23);
+        nombres.put( "Lewandoski", 32);
+        nombres.put( "James", 19);
+        nombres.put( "Kane", 41);
 
-        nombres.forEach((id, goles) -> {
-            System.out.println("ID: "+ id + " Nombre: " + goles);
+        nombres.forEach((jugador, goles) -> {
+            System.out.println("Goles: "+ goles + " Jugador: " + jugador);
         });
+
+        // Acceder a un valor usando una clave
+        Object numGoles = nombres.get("Ronaldo");
+        System.out.println("# de goles: " + numGoles);
   }
 }
 ```
