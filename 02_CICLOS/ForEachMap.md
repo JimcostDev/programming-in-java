@@ -1,4 +1,5 @@
-# ForEach en mapas
+## ForEach en mapas
+En Java, Map es una interfaz que representa una colección de pares clave-valor, donde cada clave está asociada con un único valor. Esta interfaz proporciona métodos para agregar, eliminar y buscar elementos por su clave, así como también para determinar el tamaño del mapa y si está vacío.
 ```java
 import java.util.Map;
 import java.util.HashMap;
@@ -6,14 +7,14 @@ class Main {
   public static void main(String[] args) {
     Map<Integer, String> nombres = new HashMap<>();
         nombres.put(28, "Ronaldo");
-        nombres.put(15, "Oswa");
-        nombres.put(33, "Clau");
-        nombres.put(15, "Tania");
-        nombres.put(39, "Silvia");
-        nombres.put(41, "Libardo");
+        nombres.put(25, "Messi");
+        nombres.put(23, "Falcao");
+        nombres.put(25, "Lewandoski");
+        nombres.put(19, "James");
+        nombres.put(41, "Kane");
 
-        nombres.forEach((id, name) -> {
-            System.out.println("ID: "+ id + " Nombre: " + name);
+        nombres.forEach((id, goles) -> {
+            System.out.println("ID: "+ id + " Nombre: " + goles);
         });
   }
 }
