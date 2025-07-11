@@ -1,4 +1,4 @@
-# Programción en Java
+# Programación en Java
 
 ## Introducción
 En esta guía, aprenderás los fundamentos de la programación en Java, incluyendo la instalación, el funcionamiento básico del lenguaje, el manejo de variables, tipos de datos y estructuras condicionales.
